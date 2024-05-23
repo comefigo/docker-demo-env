@@ -1,0 +1,18 @@
+{
+	"name": "Amazon corretto 22",
+	"dockerFile": "Dockerfile",
+	"context": "..",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack"
+			],
+			"settings": {}
+		}
+	},
+	"runArgs": [],
+	"shutdownAction": "stopContainer",
+	"remoteEnv": {
+		"TZ": "Asia/Tokyo"
+	}
+}

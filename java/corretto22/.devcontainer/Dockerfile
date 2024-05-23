@@ -1,0 +1,1 @@
+FROM amazoncorretto:22.0.1-al2023
