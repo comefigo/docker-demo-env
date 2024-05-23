@@ -1,6 +1,6 @@
 # command
 
-エラーになる
+問題なく実行できる
 
 ```
 > javac IndexOfString.java
