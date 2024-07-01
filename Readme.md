@@ -23,6 +23,11 @@ Dockerコンテナの実行環境は以下の**2つのどちらか**の手順に
 1. 当ソースのディレクトリをDockerの共有ドライブの設定に加える<br/>
     `c:\docker-demo`を含むパスを追加<br/>
     ![共有ドライブの設定](./doc/docker_shares.png)
+1. Docker Desktopが起動していることを確認し、Windows Terminalで以下のコマンドを実行し、エラーなく実行されることを確認する<br/>
+    warningは問題なし
+    ```
+    docker info
+    ```
 
 ## Docker プレイグラウンド(オンライン)
 
